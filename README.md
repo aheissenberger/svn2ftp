@@ -32,3 +32,22 @@ Usage
 start on commandline
 
 	svn2ftp <path to local svn checkout>
+	
+as a custom build setup in _sublime text 2_ <projectname>.sublime-project:
+
+	{
+		"folders":
+		[
+			{
+				"path": "<path to project>"
+			}
+		],
+		"build_systems":
+	    [
+	        {
+	            "name": "svn2ftp",
+	            "cmd": ["svn2ftp","$project_path"],
+	            "path": "/Users/xx/bin/" // only relevant if _svn2ftp_ ist not in PATH
+	        }
+	    ]
+	}
