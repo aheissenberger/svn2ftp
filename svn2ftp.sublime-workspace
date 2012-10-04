@@ -1,0 +1,266 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"depl",
+				"deploy"
+			],
+			[
+				"de",
+				"deploy_server"
+			],
+			[
+				"deply",
+				"deploy_directory"
+			],
+			[
+				"if",
+				"ifelse	if … else …"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "p.catchup-deploy",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"for",
+				"Format: Php"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"snip ",
+				"Snippet: <?php … ?>"
+			],
+			[
+				"doc",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"docb",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"goto",
+				"Goto Documentation"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"snip",
+				"Snippet: html"
+			],
+			[
+				"sni",
+				"Snippet: <?php else: ?>"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"side",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"syn jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sy ma",
+				"Set Syntax: Markdown"
+			],
+			[
+				"sntax jav",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ah/SVN-Checkouts/raiffeisen/Gemeinschaft2012/gemeinschaft2012.sublime-project",
+		"/Users/ah/Library/Application Support/Sublime Text 2/Packages/gemeinschaft2012.sublime-project",
+		"/Users/ah/stunnel.conf",
+		"/Users/ah/SVN-Checkouts/raiffeisen/Gemeinschaft2012/index.php",
+		"/Users/ah/SVN-Checkouts/raiffeisen/Gemeinschaft2012/qr.php",
+		"/Users/ah/Library/Application Support/Sublime Text 2/Packages/Phpcs/phpcs.sublime-settings",
+		"/Users/ah/Library/Application Support/Sublime Text 2/Packages/User/phpcs.sublime-settings",
+		"/Users/ah/SVN-Checkouts/raiffeisen/Gemeinschaft2012/facebook/index.php",
+		"/Users/ah/SVN-Checkouts/raiffeisen/Gemeinschaft2012/facebook/js/script.js",
+		"/Users/ah/SVN-Checkouts/A1TELEKOM/release2011/cms/templates/bildgalerie.php",
+		"/tmp/subl stdin XG8Yrv.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"if offentlicher zugang",
+			"The",
+			"The name",
+			"name",
+			"the",
+			"require_once"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.php_beautifier_errors":
+	{
+		"height": 100.0
+	},
+	"output.xdebug_inspect":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"bildga",
+				"cms/templates/bildgalerie.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
