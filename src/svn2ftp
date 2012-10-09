@@ -2,9 +2,10 @@
 
 if [ ! $1 ]; then
     echo "usage: $0 <path to local svn project checkout>"
-    echo "        deployment server setzen: svn propset deploy 'ftp://<user>:<passwort>@<server>/<path>' ."
+    echo "        deployment server setzen: svn propset svn2ftp_server 'ftp://<user>:<passwort>@<server>/<path>' ."
     exit 1
 fi
+
 
 # set up nice names for the incoming parameters to make the script more readable
 project_directory=$1
@@ -13,9 +14,14 @@ target_directory=$deploy_directory/tmp$$
 pushd $project_directory
 mkdir -p $deploy_directory
 repository=`svn info | grep "URL:" | cut -d ' ' -f 2`
-deploy_server=`svn propget deploy .`
+deploy_server=`svn propget svn2ftp_server .`
 
 deploy_type=`expr "$deploy_server" : 's\{0,1\}\(ftp\)'`
+
+if [ "$deploy_type" != "ftp" ]; then
+    echo "ERROR: unsuported deployment target ($deploy_server)! Only ftp/sftp are supported"
+    exit 2
+fi
 
 # if revision_from is not already set, get it from the .revision file if it exists
 if [ ! $revision_from ] && [ -f $deploy_directory/revision ]; then
@@ -66,3 +72,4 @@ if [ $deploy_type == "ftp" ]; then
 fi
 
 popd
+

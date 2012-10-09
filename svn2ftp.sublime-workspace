@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"svn",
+				"svncheckout"
+			],
+			[
+				"svns",
+				"svnsrcdir"
+			],
+			[
 				"depl",
 				"deploy"
 			],
@@ -132,6 +140,13 @@
 	},
 	"file_history":
 	[
+		"/Users/ah/SVN-Checkouts/DEV/svn2ftp/src/svn2ftp_test.sh",
+		"/Users/ah/SVN-Checkouts/DEV/svn2ftp/src/svn2ftp",
+		"/Users/ah/SVN-Checkouts/DEV/svn2ftp/src/svn2ftp_test_public.sh",
+		"/Users/ah/SVN-Checkouts/DEV/svn2ftp/README.md",
+		"/Users/ah/SVN-Checkouts/DEV/svn2ftp/tests/test.sh",
+		"/Users/ah/SVN-Checkouts/DEV/svn2ftp/svn2ftp",
+		"/Users/ah/SVN-Checkouts/DEV/svn2ftp/.gitignore",
 		"/Users/ah/SVN-Checkouts/raiffeisen/Gemeinschaft2012/gemeinschaft2012.sublime-project",
 		"/Users/ah/Library/Application Support/Sublime Text 2/Packages/gemeinschaft2012.sublime-project",
 		"/Users/ah/stunnel.conf",
@@ -161,6 +176,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"SHUNIT_TMPDIR",
+			"deploy",
 			"if offentlicher zugang",
 			"The",
 			"The name",
